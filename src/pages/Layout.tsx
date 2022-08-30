@@ -3,9 +3,9 @@ import { Link, Outlet } from "react-router-dom";
 export const Layout = () => {
   return (
     <div>
-      <header>
+      <header className="flex justify-evenly p-7 h-1/5">
         <nav>
-          <ul>
+          <ul className="flex flex-row gap-7 font-bold">
             <li>
               <Link to={"/Personal-Portfolio-React/"}>Start</Link>
             </li>
