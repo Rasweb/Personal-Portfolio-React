@@ -3,7 +3,7 @@ export interface IProject {
   title: string;
   description: string;
   category: string;
-  language: [];
+  language: string[];
   image: string;
   github: string;
 }

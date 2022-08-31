@@ -5,7 +5,7 @@
     "description": "This clone website is from Medieinstitutet Stockholm Sweden. Some of the textual information is in swedish but that dosen't affect the code.",
     "category": "single",
     "language": ["HTML", "SCSS", "JavaScript"],
-    "image": "./images/CloneWebsite",
+    "image": "./images/CloneWebsite.png",
     "github": "https://github.com/Rasweb/HTML-CSS-clone_website.git"
   },
   {
@@ -14,7 +14,7 @@
     "description": "This is a group assignment with two other students from Medieinstitutet Stockholm Sweden. It's a fictional login page and booking site for cleaning. This project is more focused at agile work methods. Because it was more focus on agile work the site is very minimal and with no functionality. It was also the first time i worked with Github pull requests",
     "category": "group",
     "language": ["HTML", "SCSS"],
-    "image": "./images/ProluoBene",
+    "image": "./images/ProluoBene.png",
     "github": "https://github.com/Rasweb/MI-AGIL-ProluoBene.git"
   },
   {
@@ -23,7 +23,7 @@
     "description": "This is a group assignment with two other students from Medieinstitutet Stockholm Sweden. It's a fictional webshop built with html, Scss/sass, gulp, flex and grid. I created the about(om) page and the contact footer, this was the first time I worked in a group project in front end development. This project's textual information is in swedish but the code can still be understood.",
     "category": "group",
     "language": ["HTML", "CSS", "SCSS", "JavaScript"],
-    "image": "./images/EttLitetHem",
+    "image": "./images/EttLitetHem.png",
     "github": "https://github.com/Rasweb/MI-HTML-CSS-EttLitetHem.git"
   },
   {
@@ -32,7 +32,7 @@
     "description": "Welcome to my personal Portfolio. This project was built with Sass/scss and JavaScript. The projects are dynamically generated, using Class and Objects with JavaScript. The class is created using a constructor with these parameters: title, image, imageAlt, description and link. The objects are in an Array of Objects so it can easily be accessed an configured.",
     "category": "single",
     "language": ["SCSS", "JavaScript", "HTML"],
-    "image": "./images/PersonalPortfolioOld",
+    "image": "./images/PersonalPortfolioOld.png",
     "github": "https://github.com/Rasweb/Personal-portfolio.git"
   },
   {
@@ -41,7 +41,7 @@
     "description": "From Graphic profile to Web Projects. This is my second assignment for Graphic design at Medieinstitutet. I have used my own Graphic profile, where I created a Lettermark logo.",
     "category": "single",
     "language": ["SCSS", "HTML"],
-    "image": "./images/Rethink",
+    "image": "./images/Rethink.png",
     "github": "https://github.com/Rasweb/Rethink.git"
   },
   {
@@ -50,7 +50,7 @@
     "description": "This is a nice, small project to practice handling user interactions and updating the DOM. Perfect for anyone who has learned the basics of JavaScript!",
     "category": "single",
     "language": ["SCSS", "HTML", "JavaScript"],
-    "image": "./images/InteractiveRating",
+    "image": "./images/InteractiveRating.png",
     "github": "https://github.com/Rasweb/Frontend_Mentor-Interactive-rating-component.git"
   },
   {
@@ -59,7 +59,7 @@
     "description": "This is a Vue 3 todo list from Medieinstitutet Stockholm Sweden. The project was built for smaller screens, for mobile, but it can be used on desktop. In this todo list you can add, remove and mark todos as done.",
     "category": "single",
     "language": ["Vue", "JavaScript", "HTML", "SCSS", "TypeScript"],
-    "image": "./images/Vue3Todo",
+    "image": "./images/Vue3Todo.png",
     "github": "https://github.com/Rasweb/Vue3-todo-assignment.git"
   },
   {
@@ -68,7 +68,7 @@
     "description": "Welcome to my Zelda inspired todo list. Built using vueJs with Scss/sass, typeScript and single file component via vueJs. This project was created in order to know more about VueJs a JavaScript framework. It is also my first vuejs project, which means that nearly everything about this project was unknown to me at first. Almost all textual information comes from Nintendo's `The Legend of Zelda Breath Of The Wild` game.",
     "category": "single",
     "language": ["Vue", "JavaScript", "HTML", "Shell", "TypeScript"],
-    "image": "./images/VueZeldaTodo",
+    "image": "./images/VueZeldaTodo.png",
     "github": "https://github.com/Rasweb/Vue3-To-Do.git"
   },
   {
@@ -77,7 +77,7 @@
     "description": "A Todo list created using nodeJs and express from Medieinstitutet Stockholm Sweden. ",
     "category": "single",
     "language": ["JavaScript", "Handlebars", "CSS", "Shell"],
-    "image": "",
+    "image": "./images/NodeJsTodo.png",
     "github": "https://github.com/Rasweb/Nodejs-TODO.git"
   },
   {
@@ -86,7 +86,7 @@
     "description": "This assignment is a To-do list from Medieinstitutet Stockholm Sweden. This is the first JavaScript project I did. As you can see on github, this was also the first time i tried github branches.",
     "category": "single",
     "language": ["JavaScript", "SCSS", "HTML"],
-    "image": "./images/JsTodo",
+    "image": "./images/JsTodo.png",
     "github": "https://github.com/Rasweb/JavaScript-BasicCourse-Assignment1.git"
   },
   {
@@ -95,7 +95,7 @@
     "description": "Welcome to Kvitter! This is a group assignment with two other students from Medieinstitutet Stockholm Sweden. It's a NodeJs Twitter-clone.",
     "category": "group",
     "language": ["JavaScript", "SCSS", "Handlebars"],
-    "image": "./images/Kvitter",
+    "image": "./images/Kvitter.png",
     "github": "https://github.com/Rasweb/MI-DynamiskWebbutveckling-Kvitter.git"
   },
   {
@@ -104,7 +104,7 @@
     "description": "When you are on the website, press the home button to begin. This is a project created using React with Javascript. I created this project because I wanted to practice on context and React JS. The information in the project is from the Fake Store API.",
     "category": "single",
     "language": ["JavaScript", "HTML", "CSS"],
-    "image": "./images/ReactContext",
+    "image": "./images/ReactContext.png",
     "github": "https://github.com/Rasweb/React-JS-Context-e-Shop.git"
   },
   {
@@ -113,7 +113,7 @@
     "description": "This was created upon the request of Medieinstitutet Stockholm, Sweden. The requirements for this assignment is to work with React typescript. The instructions and all of the textual data on this site are in swedish. But the code is mostly in english.",
     "category": "single",
     "language": ["TypeScript", "HTML", "CSS"],
-    "image": "./images/ReactZoo",
+    "image": "./images/ReactZoo.png",
     "github": "https://github.com/Rasweb/React-Zoo-Assignment.git"
   },
 
@@ -123,7 +123,7 @@
     "description": "Welcome to React todo list, this is my first React project. This was created so I could learn about React and how to use it. You can Add, Remove, and mark todos as done.",
     "category": "single",
     "language": ["TypeScript", "SCSS", "HTML", "CSS"],
-    "image": "./images/ReactTodo",
+    "image": "./images/ReactTodo.png",
     "github": "https://github.com/Rasweb/React-to-do.git"
   },
   {
@@ -132,7 +132,7 @@
     "description": "This is a group assignment with two other students from Medieinstitutet Stockholm, Sweden. It's a fictional webshop about music albums they are all dynamically created and it was the first time we used Typescript. I mainly created the forms and their properties and also the testing for the site using cypress. This was the first time i worked with Cypress(testing tool)",
     "category": "group",
     "language": ["JavaScript", "SCSS", "HTML", "JavaScript"],
-    "image": "./images/HomegrownRecords",
+    "image": "./images/HomegrownRecords.png",
     "github": "https://github.com/Rasweb/Project_Butik.git"
   }
 ]
