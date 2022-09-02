@@ -42,7 +42,8 @@ export const Projects = () => {
     <>
       <div>
         <h1>Projects</h1>
-        {projectsHtml}
+        <ul className="md:flex md:flex-wrap justify-center">{projectsHtml}</ul>
+        {/* md:gap-6 */}
       </div>
     </>
   );
