@@ -13,7 +13,6 @@ export const ShowProjects = (props: IShowProjects) => {
       >
         <h2>{props.proj.title}</h2>
         <p>category: {props.proj.category}</p>
-        <p>language: {props.proj.language}</p>
         <img
           src={props.proj.image}
           alt={props.proj.title}
@@ -24,7 +23,9 @@ export const ShowProjects = (props: IShowProjects) => {
             {props.proj.description}
           </p>
         </div>
-        <a href={props.proj.github}>Read More</a>
+        <a href={props.proj.github} rel="noopener noreferrer" target="_blank">
+          Read More
+        </a>
       </li>
     </>
   );
