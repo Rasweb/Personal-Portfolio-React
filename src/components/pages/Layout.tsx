@@ -7,6 +7,7 @@ export const Layout = () => {
 
   return (
     <div
+      className="min-h-screen"
       style={{
         color: theme.color,
         backgroundColor: theme.background,
