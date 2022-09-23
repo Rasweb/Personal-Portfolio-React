@@ -6,7 +6,12 @@ export const Layout = () => {
   let theme = useContext(ThemeContext);
 
   return (
-    <div>
+    <div
+      style={{
+        color: theme.color,
+        backgroundColor: theme.background,
+      }}
+    >
       <header className="flex justify-evenly p-7 h-1/5">
         <nav>
           <ul className="flex flex-row gap-7 font-bold">

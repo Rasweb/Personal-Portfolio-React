@@ -1,15 +1,22 @@
+import { useContext } from "react";
 import { IProject } from "../../models/ProjectType";
+import { ThemeContext } from "../context/ThemeContext";
 
 interface IShowProjects {
   proj: IProject;
 }
 
 export const ShowProjects = (props: IShowProjects) => {
+  let theme = useContext(ThemeContext);
   return (
     <>
       <li
         key={props.proj.id}
-        className="flex flex-col items-center mb-4 p-1 bg-white border-2 rounded max-w-sm ml-3.5 h-3/6 md:h-[460px] md:border-black md:w-[500px]"
+        className="'flex flex-col items-center mb-4 p-1 border-2 rounded max-w-sm ml-3.5 h-3/6 md:h-[460px] md:w-[500px]'"
+        style={{
+          color: theme.color,
+          backgroundColor: theme.background,
+        }}
       >
         <h2>{props.proj.title}</h2>
         <p>category: {props.proj.category}</p>
