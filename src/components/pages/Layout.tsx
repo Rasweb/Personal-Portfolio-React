@@ -1,6 +1,10 @@
+import { useContext } from "react";
 import { Link, Outlet } from "react-router-dom";
+import { ThemeContext } from "../context/ThemeContext";
 
 export const Layout = () => {
+  let theme = useContext(ThemeContext);
+
   return (
     <div>
       <header className="flex justify-evenly p-7 h-1/5">
@@ -14,6 +18,17 @@ export const Layout = () => {
             </li>
             <li>
               <Link to={"projects"}>Projects</Link>
+            </li>
+            <li>
+              <button
+                style={{
+                  color: theme.color,
+                  backgroundColor: theme.background,
+                }}
+                onClick={theme.toggleTheme}
+              >
+                Change theme
+              </button>
             </li>
           </ul>
         </nav>

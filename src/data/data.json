@@ -133,5 +133,14 @@
     "language": ["JavaScript", "HTML", "CSS"],
     "image": "./images/ReactContext.png",
     "github": "https://github.com/Rasweb/React-JS-Context-e-Shop.git"
+  },
+  {
+    "id": 16,
+    "title": "VuxenJuice",
+    "description": "This is a Fullstack group project from medieinstitutet, created using ReactTs and NodeJs. Its a booking site where you can do all the CRUD operations. It uses 89% TypeScript, 7% JavaScript, 3% CSS, and 1% HTML.",
+    "category": "group",
+    "language": ["TypeScript", "JavaScript", "CSS", "HTML"],
+    "image": "./images/VuxenJuice.png",
+    "github": "https://github.com/Rasweb/booking-system.git"
   }
 ]
