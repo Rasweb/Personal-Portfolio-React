@@ -5,6 +5,7 @@ interface ITheme {
   name: string;
   color: string;
   background: string;
+  border: string;
   toggleTheme(): void;
 }
 
@@ -19,13 +20,15 @@ export const themes: IThemes = {
   light: {
     name: "Light",
     color: "black",
-    background: "white",
+    background: "#fefefa",
+    border: "1px solid black",
     toggleTheme: () => {},
   },
   dark: {
     name: "Dark",
     color: "white",
     background: "black",
+    border: "1px solid white",
     toggleTheme: () => {},
   },
 };

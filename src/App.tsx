@@ -13,20 +13,11 @@ function App() {
   theme.toggleTheme = () => {
     theme === themes.light ? setTheme(themes.dark) : setTheme(themes.light);
   };
+
   return (
     // <HashRouter>
     <BrowserRouter>
       <ThemeContext.Provider value={theme}>
-        {/* <div style={{ color: theme.color, backgroundColor: theme.background }}>
-          <button
-            style={{
-              color: theme.color,
-              backgroundColor: theme.background,
-            }}
-            onClick={theme.toggleTheme}
-          >
-            Change theme
-          </button> */}
         <Routes>
           <Route path="/Personal-Portfolio-React/" element={<Layout />}>
             <Route index element={<Start />}></Route>
@@ -34,7 +25,6 @@ function App() {
             <Route path="projects" element={<Projects />}></Route>
           </Route>
         </Routes>
-        {/* </div> */}
       </ThemeContext.Provider>
     </BrowserRouter>
     // </HashRouter>
