@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "title": "Ett Litet Hem",
+    "description": "This is a group assignment from Medieinstitutet. Ett Litet Hem is a fictional webshop. This was the first time I worked in a group project in front end development. Ett Litet Hem uses 56% html, 21% css, 21% css,  and 1% javascript",
+    "category": "group",
+    "language": ["HTML", "CSS", "SCSS", "JavaScript"],
+    "image": "./images/EttLitetHem.png",
+    "github": "https://github.com/Rasweb/MI-HTML-CSS-EttLitetHem.git"
+  },
+  {
+    "id": 2,
+    "title": "Homegrown Records",
+    "description": "This is a group assignment from Medieinstitutet. Homegronw Records is a fictional webshop it was the first time we used Typescript and Cypress. I mainly created the forms and the testing for the site using cypress. It uses 52% typescript, 27% scss, 19% html, and 2% javascript.",
+    "category": "group",
+    "language": ["JavaScript", "SCSS", "HTML", "JavaScript"],
+    "image": "./images/HomegrownRecords.png",
+    "github": "https://github.com/Rasweb/Project_Butik.git"
+  },
+  {
+    "id": 3,
+    "title": "Clone website",
+    "description": "This clone website is an assignment from Medieinstitutet. This website uses 48% html, 48% scss, and 4% JavaScript",
+    "category": "single",
+    "language": ["HTML", "SCSS", "JavaScript"],
+    "image": "./images/CloneWebsite.png",
+    "github": "https://github.com/Rasweb/HTML-CSS-clone_website.git"
+  },
+  {
+    "id": 4,
+    "title": "Personal portfolio (old)",
+    "description": "This is my old personal portfolio. The projects are dynamically generated, using Class and Objects with JavaScript, the class is created using a constructor. This website uses 50% scss, 28% javascript, and 22% html",
+    "category": "single",
+    "language": ["SCSS", "JavaScript", "HTML"],
+    "image": "./images/PersonalPortfolioOld.png",
+    "github": "https://github.com/Rasweb/Personal-portfolio.git"
+  },
+  {
+    "id": 5,
+    "title": "Javascript Todo",
+    "description": "This is a js To-do list assignment from Medieinstitutet. This is the first JavaScript project I did, this was also the first time i used github branches. It uses 58% javascript, 34% scss, and 8% html",
+    "category": "single",
+    "language": ["JavaScript", "SCSS", "HTML"],
+    "image": "./images/JsTodo.png",
+    "github": "https://github.com/Rasweb/JavaScript-BasicCourse-Assignment1.git"
+  },
+  {
+    "id": 6,
+    "title": "NodeJs Todo",
+    "description": "This is a Nodejs todo list assignment from Medieinstitutet. This was the first backend project i did. It uses 43% javascript, 35% handlebars, 20% css, and 2% shell.",
+    "category": "single",
+    "language": ["JavaScript", "Handlebars", "CSS", "Shell"],
+    "image": "./images/NodeJsTodo.png",
+    "github": "https://github.com/Rasweb/Nodejs-TODO.git"
+  },
+  {
+    "id": 7,
+    "title": "Kvitter",
+    "description": "This is a group assignment from Medieinstitutet. Kvitter is a NodeJs Twitter-like project. It uses 46% javascript, 28% shell, and 26% handlebars.",
+    "category": "group",
+    "language": ["JavaScript", "SCSS", "Handlebars"],
+    "image": "./images/Kvitter.png",
+    "github": "https://github.com/Rasweb/MI-DynamiskWebbutveckling-Kvitter.git"
+  },
+  {
+    "id": 8,
+    "title": "Proluo Bene",
+    "description": "This is a group assignment from Medieinstitutet. Proluo Bene is more focused at agile work methods. This was the first time i worked with Github pull requests. Proluo Bene uses 54% html, 46% scss",
+    "category": "group",
+    "language": ["HTML", "SCSS"],
+    "image": "./images/ProluoBene.png",
+    "github": "https://github.com/Rasweb/MI-AGIL-ProluoBene.git"
+  },
+  {
+    "id": 9,
+    "title": "Interactive rating",
+    "description": "This is a website from Frontend Mentor, to practice handling user interactions and updating the DOM. Interactive rating uses 45% scss, 42% html, and 13% javascript.",
+    "category": "single",
+    "language": ["SCSS", "HTML", "JavaScript"],
+    "image": "./images/InteractiveRating.png",
+    "github": "https://github.com/Rasweb/Frontend_Mentor-Interactive-rating-component.git"
+  },
+  {
+    "id": 10,
+    "title": "Rethink",
+    "description": "This website is an assignment from the Graphic design course. I created my own Lettermark logo. Rethink uses 67% scss, and 33% html. ",
+    "category": "single",
+    "language": ["SCSS", "HTML"],
+    "image": "./images/Rethink.png",
+    "github": "https://github.com/Rasweb/Rethink.git"
+  },
+  {
+    "id": 11,
+    "title": "Vue3 todo assignment",
+    "description": "This is a vue3 todo list assignment from Medieinstitutet. Vue3 todo was built for smaller screens and you can add, remove and mark todos as done. It uses 72% vue, 10% javascript, 8% html, 6% scss, and 3% typescript.",
+    "category": "single",
+    "language": ["Vue", "JavaScript", "HTML", "SCSS", "TypeScript"],
+    "image": "./images/Vue3Todo.png",
+    "github": "https://github.com/Rasweb/Vue3-todo-assignment.git"
+  },
+  {
+    "id": 12,
+    "title": "Vue3 Zelda todo",
+    "description": "This is a vue3 Zelda inspired todo list. Zelda todo uses single file components, it is also my first vuejs project. All textual information comes from Nintendo's `BOTW` game. It uses 79% vue, 8% javascript, 6% html, 4% shell, and 3% javascript.",
+    "category": "single",
+    "language": ["Vue", "JavaScript", "HTML", "Shell", "TypeScript"],
+    "image": "./images/VueZeldaTodo.png",
+    "github": "https://github.com/Rasweb/Vue3-To-Do.git"
+  },
+  {
+    "id": 13,
+    "title": "React todo",
+    "description": "This is a react todo list. This is my first React project. This was created so I could learn about React and how to use it. You can Add, remove, and mark todos as done. It uses 60% typescript, 21% scss, 16% html and 4% css.",
+    "category": "single",
+    "language": ["TypeScript", "SCSS", "HTML", "CSS"],
+    "image": "./images/ReactTodo.png",
+    "github": "https://github.com/Rasweb/React-to-do.git"
+  },
+  {
+    "id": 14,
+    "title": "React Zoo",
+    "description": "This is an assignment from Medieinstitutet. The requirements for this assignment is to work with React typescript. The instructions and all of the textual data on this site are in swedish. It uses 87% typescript, 11% html and 2% css.",
+    "category": "single",
+    "language": ["TypeScript", "HTML", "CSS"],
+    "image": "./images/ReactZoo.png",
+    "github": "https://github.com/Rasweb/React-Zoo-Assignment.git"
+  },
+  {
+    "id": 15,
+    "title": "React JS Context Eshop",
+    "description": "This is a react js e-shop. I created this project because I wanted to practice on context and React JS. The data is from the Fake Store API. It uses 93% javascript, 5% html, and 2% css.",
+    "category": "single",
+    "language": ["JavaScript", "HTML", "CSS"],
+    "image": "./images/ReactContext.png",
+    "github": "https://github.com/Rasweb/React-JS-Context-e-Shop.git"
+  },
+  {
+    "id": 16,
+    "title": "VuxenJuice",
+    "description": "This is a Fullstack group project from medieinstitutet, created using ReactTs and NodeJs. Its a booking site where you can do all the CRUD operations. It uses 89% TypeScript, 7% JavaScript, 3% CSS, and 1% HTML.",
+    "category": "group",
+    "language": ["TypeScript", "JavaScript", "CSS", "HTML"],
+    "image": "./images/VuxenJuice.png",
+    "github": "https://github.com/Rasweb/booking-system.git"
+  }
+]
