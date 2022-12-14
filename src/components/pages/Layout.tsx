@@ -6,6 +6,17 @@ import { Navbar, MobileNav, IconButton } from "@material-tailwind/react";
 export const Layout = () => {
   let theme = useContext(ThemeContext);
   const [openNav, setOpenNav] = useState(false);
+  const [darkImageColor, setDarkImageColor] = useState(false);
+
+  useEffect(() => {
+    if (theme.name === "Dark") {
+      setDarkImageColor(true);
+    } else {
+      setDarkImageColor(false);
+    }
+
+    return;
+  }, [theme]);
 
   useEffect(() => {
     window.addEventListener(
@@ -40,18 +51,6 @@ export const Layout = () => {
           About
         </Link>
       </li>
-      <div>
-        <button
-          className="font-unbounded md:text-lg"
-          style={{
-            color: theme.color,
-            backgroundColor: theme.background,
-          }}
-          onClick={theme.toggleTheme}
-        >
-          Change theme
-        </button>
-      </div>
     </ul>
   );
 
@@ -73,6 +72,25 @@ export const Layout = () => {
       >
         <div className="container mx-auto flex items-center justify-between">
           <div className="hidden lg:block">{navList}</div>
+          <div>
+            <button
+              style={{
+                color: theme.color,
+                backgroundColor: theme.background,
+              }}
+              onClick={theme.toggleTheme}
+            >
+              {darkImageColor ? (
+                <>
+                  <i className="fa-regular fa-sun text-2xl md:text-3xl"></i>
+                </>
+              ) : (
+                <>
+                  <i className="fa-solid fa-moon text-2xl md:text-3xl"></i>
+                </>
+              )}
+            </button>
+          </div>
           <IconButton
             variant="text"
             className="ml-auto h-6 w-6  hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"

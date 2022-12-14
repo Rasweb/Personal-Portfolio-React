@@ -73,7 +73,7 @@
   },
   {
     "id": 9,
-    "title": "Frontend Mentor - Interactive rating",
+    "title": "Interactive rating",
     "description": "This is a website from Frontend Mentor, to practice handling user interactions and updating the DOM. Interactive rating uses 45% scss, 42% html, and 13% javascript.",
     "category": "single",
     "language": ["SCSS", "HTML", "JavaScript"],

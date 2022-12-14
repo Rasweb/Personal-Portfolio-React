@@ -8,6 +8,7 @@ export const Projects = () => {
   const [show, setShow] = useState(0);
   const [sortcontrol, setSortControl] = useState(false);
 
+  let cat = "";
   // All projects
   const projectsHtml = projectdata.map((proj: IProject) => {
     return <ShowProjects key={proj.id} proj={proj} />;
@@ -81,41 +82,52 @@ export const Projects = () => {
     return null;
   });
 
+  const currCat = (string: string) => {
+    if (cat !== "all") {
+      cat = string;
+    }
+  };
+
   let comp = null;
   switch (show) {
     // All projects
     case 0:
-      console.log("0");
+      currCat("all");
       comp = (
         <ul className="md:flex md:flex-wrap justify-center">{projectsHtml}</ul>
       );
       break;
     // Html projects
     case 1:
-      console.log("1");
+      currCat("html");
       comp = (
         <ul className="md:flex md:flex-wrap justify-center">{showHtml}</ul>
       );
       break;
     // Scss projects
     case 2:
+      currCat("scss");
       comp = (
         <ul className="md:flex md:flex-wrap justify-center">{showScss}</ul>
       );
       break;
     // Javascript projects
     case 3:
+      currCat("js");
       comp = <ul className="md:flex md:flex-wrap justify-center">{showJs}</ul>;
       break;
     // Typescript projects
     case 4:
+      currCat("ts");
       comp = <ul className="md:flex md:flex-wrap justify-center">{showTs}</ul>;
       break;
     // Vue projects
     case 5:
+      currCat("vue");
       comp = <ul className="md:flex md:flex-wrap justify-center">{showVue}</ul>;
       break;
     case 6:
+      currCat("group");
       comp = (
         <ul className="md:flex md:flex-wrap justify-center">{showGroup}</ul>
       );
@@ -132,6 +144,8 @@ export const Projects = () => {
           sortcontrol={sortcontrol}
           // useState as prop
           setShow={setShow}
+          show={show}
+          cat={cat}
         />
         <div>{comp}</div>
       </div>
