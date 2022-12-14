@@ -15,7 +15,6 @@ function App() {
   };
 
   return (
-    // <HashRouter>
     <BrowserRouter>
       <ThemeContext.Provider value={theme}>
         <Routes>
@@ -27,7 +26,6 @@ function App() {
         </Routes>
       </ThemeContext.Provider>
     </BrowserRouter>
-    // </HashRouter>
   );
 }
 
