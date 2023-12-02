@@ -1,7 +1,7 @@
 ## Table of contents
 
 - [Overview](#overview)
-  - [personal portfolio](#personal-portfolio)
+  - [Old Personal Portfolio](#old-personal-portfolio)
   - [Project setup](#project-setup)
   - [Built with](#built-with)
   - [Screenshot](#screenshot)
@@ -9,7 +9,7 @@
 
 ## Overview
 
-### Personal Portfolio
+### Old Personal Portfolio
 
 Hello, welcome to my personal portfolio, my name is Rasmus.
 In this project you can find some information about me and the public projects I have built. You can also find some links to my Github and Linkedin profile.
@@ -53,5 +53,3 @@ npm run build
 ### Author
 
 [Github](https://github.com/Rasweb)
-
-[Website](https://rasweb.github.io/Personal-Portfolio-React/)
